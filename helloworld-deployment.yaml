@@ -12,8 +12,8 @@ spec:
       labels:
         app: hello-world
     spec:
-      containers:
-      - name: hello-world
-        image: 157669874243.dkr.ecr.us-east-2.amazonaws.com/helloworldexpress:latest
+  containers:
+  - name: hello-world
+    image: 986119050506.dkr.ecr.us-east-1.amazonaws.com/helloworldexpress:latest
         ports:
         - containerPort: 3000
